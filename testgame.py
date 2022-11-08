@@ -29,7 +29,6 @@ end_title = test_fontend.render('YOU DIED', False, ('White'))
 end_rect = end_title.get_rect(center = (400,200))
 
 
-
 #Main Loop
 while True:
     for event in pygame.event.get():
